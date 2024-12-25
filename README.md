@@ -29,7 +29,7 @@ def christian_threshold(image, window_size, k):
     return (image > mean - k * (std / R)).astype(np.uint8) * 255
 
 # Load images
-images = ["text1.jpg", "text2.jpg", "object1.jpg", "object2.jpg"]
+images = ["54b27291c24f7552d24d298609e2b628.jpg", "71546899382953f1f375c34c4a99f276.jpg", "image.png", "завантаження.jpg"]
 window_size = 128
 k_values = [0.2, 0.5]
 
